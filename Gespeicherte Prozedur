@@ -1,0 +1,33 @@
+Gespeicherte (rekursive) Prozedur als Common Table Expression (CTE)
+
+CREATE PROCEDURE GetIDbyID (@childname varchar(50)) AS
+
+;With CTE  (ID
+		,	Name
+		,	ParentID
+		,	Level) AS
+(SELECT   e.ID
+		, e.Name
+		, e.ParentID
+		, 0 AS Level
+
+	FROM page AS e  --Verankerung wurde definiert
+	WHERE e.Name LIKE @childname
+
+UNION ALL --Kombination der verscheidenen Resultate der SELECT Statements
+
+SELECT    e.ID
+		, e.Name
+		, e.ParentID
+		, Level+1
+
+	FROM page AS e  -- Rekursive Member wurden definiert
+	INNER JOIN CTE AS h --Punkt der Rekursion
+	ON h.ParentID=e.ID
+	)
+	-- Ausführung
+SELECT DISTINCT ID
+			  , Name
+			  , ParentID
+FROM CTE
+ORDER BY ID
