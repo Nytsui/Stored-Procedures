@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Root.exe" version="1.0.0.0" publicKeyToken="d0a4cbaa18f3ec45" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Root" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Root.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Root.exe" size="35840">
+      <assemblyIdentity name="Root" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5XJUvAF9ITq8lWD7jaje/+xL7fzCyiYa/j7ZvRTdHp8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Database1.mdf" size="3211264" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FqNLtSEQKafkBB9g9BxGe+mJzPA7vjEEykK8gQjCRl8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Database1_log.ldf" size="516096" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mlT62Z9Pj+vhkhtltik4fjKTEwgZQJol0EM/Yb8PbyY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Root.exe.config" size="559">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/Qm4YmkuKTLn9vzwj9MWq6+EglAJ3sz4J6B+rNjczEM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SINOVO\jsteberl" issuerKeyHash="807d33376ed315f7810b637a81b5c586131448aa" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cT2kLCdwDLw5+xEOAEMIva6jgdo1gAYtIktmeqf64js=</DigestValue></Reference></SignedInfo><SignatureValue>Tl86CU+yZTpGt7Ml6Yivo1hOO2cp29GluHadpsghUjLB5PeX1AuDNQYoqQS74HNMc1fv73CM3kNhZ/I7MgjxKsiicnBzkCw78xXPQbVr7I8EqkEKMdPHOsvdyNcmQYHgz8bHXN/rqJNS1snZPIPTKqtNVkEyYrs1ylKccAgsoC8=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mbKATj0zMsVttLpWYykS1Id6LwIHjjUiJab/KPvU5haDEg/kihkSqSHmWxxp29kU6egSzSt+Pl+MEpOOwa6FlYBnC1OgmzjgujsSL1JqB01zAr+OfUZF+XlXE94wm1yn6AzXoL3jdG9BIyJ4Z3CH5n6i6kCVNFHyXNylt5T2wFc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3be2faa77a664b222d068035da81a3aebd0843000e11fb39bc0c70272ca43d71" Description="" Url=""><as:assemblyIdentity name="Root.exe" version="1.0.0.0" publicKeyToken="d0a4cbaa18f3ec45" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SINOVO\jsteberl</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>q3Pq+Gjuk3EBYSK2L7rq8YFTVCrQ0WGVWYRRf8MM1kI=</DigestValue></Reference></SignedInfo><SignatureValue>BXbFFiK3t/Czr7x3JP/5Lah1g1ilpjPx1dsGMFra0XYj+PdZTTDAj7tLW80bdrcXHm0YznrgWkzmOPIAMjw4qavqp3nU/HpirLfsEyCVKFeYowidg8JeeJdhAggqlS5nBC2CpfuGSbmd8yvywmCCCxooqoP/4THWnPIA4psa9jE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mbKATj0zMsVttLpWYykS1Id6LwIHjjUiJab/KPvU5haDEg/kihkSqSHmWxxp29kU6egSzSt+Pl+MEpOOwa6FlYBnC1OgmzjgujsSL1JqB01zAr+OfUZF+XlXE94wm1yn6AzXoL3jdG9BIyJ4Z3CH5n6i6kCVNFHyXNylt5T2wFc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQZa/0UwMDLIlAL/M/t8GhFDANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AUwBJAE4ATwBWAE8AXABqAHMAdABlAGIAZQByAGwwHhcNMTYwODIzMTMyMDQyWhcNMTcwODIzMTkyMDQyWjApMScwJQYDVQQDHh4AUwBJAE4ATwBWAE8AXABqAHMAdABlAGIAZQByAGwwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJmygE49MzLFbbS6VmMpEtSHei8CB441IiWm/yj71OYWgxIP5IoZEqkh5lscadvZFOnoEs0rfj5fjBKTjsGuhZWAZwtToJs44Lo7Ei9SagdNcwK/jn1GRfl5VxPeMJtcp+gM16C943RvQSMieGdwh+Z+oupAlTRR8lzcpbeU9sBXAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAWZjKb5ZqD06xotY7D1NgVa/HgqqFinjyTnaM441pNqtcWVA92sqSobHOSFirJ2uiSE4ZH4W1LQIxKcS7T7dryCX7YTFosAgtAtAl9NEr2miPqjZ068urhNk2QdXorAdy9M0e/b3aNUsZHBTNUea1zkP1n01lfBzeI+DBYe3RXUQ=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
