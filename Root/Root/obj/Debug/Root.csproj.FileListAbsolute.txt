@@ -1,0 +1,15 @@
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\bin\Debug\Database1.mdf
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\bin\Debug\Database1_log.ldf
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\bin\Debug\Root.exe.config
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\bin\Debug\Root.exe.manifest
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\bin\Debug\Root.application
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\bin\Debug\Root.exe
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\bin\Debug\Root.pdb
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\obj\Debug\Root.Form1.resources
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\obj\Debug\Root.Properties.Resources.resources
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\obj\Debug\Root.csproj.GenerateResource.Cache
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\obj\Debug\Root.exe.manifest
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\obj\Debug\Root.application
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\obj\Debug\Root.exe
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\obj\Debug\Root.pdb
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Root\obj\Debug\Root.csprojResolveAssemblyReference.cache
