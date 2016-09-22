@@ -1,0 +1,12 @@
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\bin\Debug\Database1.mdf
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\bin\Debug\Database1_log.ldf
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\bin\Debug\Form.Test.dll
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\bin\Debug\Form.Test.pdb
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\bin\Debug\nunit.framework.dll
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\bin\Debug\NUnitForms.dll
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\bin\Debug\Root.exe
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\bin\Debug\Root.pdb
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\bin\Debug\nunit.framework.xml
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\obj\Debug\RootTest.csprojResolveAssemblyReference.cache
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\obj\Debug\Form.Test.dll
+C:\Users\jsteberl\documents\visual studio 2012\Projects\Root\Form.Test\obj\Debug\Form.Test.pdb
